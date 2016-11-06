@@ -13,6 +13,7 @@
   "author": "yhorie <yuk.horie@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "split": "^1.0.0",
     "through2": "^2.0.1"
   }
 }
