@@ -1,8 +1,7 @@
 'use strict';
 
 const through = require('through2'),
-      stream = through(write, end),
-      fs = require('fs');
+      stream = through(write, end);
 
 function write (buffer, encoding, next) {
   this.push(buffer.toString().toUpperCase());
